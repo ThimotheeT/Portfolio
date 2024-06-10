@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "84HHbrnuf1DSs555p",
+            });
+        })();
+    </script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="nav_bar" class="one"><a href="#parcours">PARCOURS</a><a href="#projets">PROJETS</a><a href="#contact">CONTACT</a><div id="bouton_theme"><button for="themeSwitch" id="themeLogo">Mode nuit</button></div></section>
+    
+    <section id="intro" class="two">
+        <h1 id="name">THIMOTHEE   TERRASSIER</h1><br><br>
+
+        <h3 id="titre">Développeur Web Full Stack</h3><br><br>
+
+        <p id="text_intro">Passionné par les nouvelles technologies, je suis en reconversion professionnelle vers le <b>développement web full stack</b>.<br>
+        Actuellement en formation, je recherche une <b>alternance</b> en Île-de-France à partir d'<b>octobre 2024</b>.<br>
+        Découvrez mes projets dans ce portfolio et n'hésitez pas à me contacter pour discuter d'une collaboration.</p><br><br>
+    </section>
+    
+    <section id="parcours" class="one"><h2>PARCOURS</h2><br>
+        <p id="parcours_intro">J'ai eu l'opportunité de travailler dans des secteurs variés tels que :</p><br>
+        
+        <div id="bloc_job">
+        <p class="job job1">L'aviation civile en tant qu'Agent de piste aéroportuaire <span id="dots1">...</span><button onclick="readMore(dots1,moreText1,btnText1)" id="read1" class="read">En savoir plus</button><br><br>
+            <span id="more1">Pour le groupe <a href="https://www.alyzia.com/" target="_blank">3S Alyzia</a>, chez SGH, Aéroport de Roissy CDG. 
+                Suite à la naissance de mon fils, j'ai changé mes plans de carrière et recherché une opportunité pour rester en Île-de-France.
+                Ayant toujours été passionné par les voyages et l'aéronautique, j'ai décidé de me lancer dans l'univers de l'aviation civile. J'ai intégré la branche SGH d'Alyzia,
+                où je gérais l'arrivée et le départ des avions, la coordination des différents agents intervenant sur les appareils, l'acheminement des bagages, du fret et des animaux, et m'assurais que les vols partaient à l'heure.
+                J'ai dû apprendre à gérer le stress lié au travail d'équipe autour de machines coûtant plusieurs millions d'euros, où la moindre erreur peut entraîner des dégâts matériels considérables.
+            </span>
+        </p>
+           
+        <p class="job job2">La boulangerie <span id="dots2">...</span><button onclick="readMore(dots2,moreText2,btnText2)" id="read2" class="read">En savoir plus</button><br><br>
+            <span id="more2">Après le Covid, j'ai décidé de changer de vie et de me former à un savoir-faire français que je pourrais exporter à l'étranger. 
+                J'ai obtenu mon certificat professionnel de boulanger à la suite d'une alternance avec le groupe <a href="https://www.linkedin.com/company/auchan/?originalSubdomain=fr" target="_blank">Auchan</a>, a Cergy.
+                Après cette alternance, je souhaitais m'expatrier, mais la naissance de mon enfant a modifié mes plans.
+            </span>
+        </p>
+            
+        <p class="job job3">La production d'œuvres d'art en tant que préparateur peinture <span id="dots3">...</span><button onclick="readMore(dots3,moreText3,btnText3)" id="read3" class="read">En savoir plus</button><br><br>
+            <span id="more3">J'ai collaboré avec M. Thierry chez <a href="https://www.allurechrome.com/" target="_blank">Allure Chrome</a> pour réaliser des œuvres d'artistes ainsi que du merchandising pour diverses grandes marques.
+                À mon retour en France, j'ai rencontré le dirigeant d'Allure Chrome, qui m'a proposé de travailler avec lui sur une technique unique en France de peinture chromée, moins coûteuse et plus écologique que la technique traditionnelle de galvanoplastie.
+                Nous avons produit des œuvres pour des artistes tels qu'Orlinski, Philippe Berry, et Othoniel, ainsi que pour des marques comme Vuitton, Dior et Hermès.
+                Après avoir exploré cet univers, j'ai souhaité découvrir d'autres horizons.
+            </span>
+        </p>
+        
+        <p class="job job4">La plongée sous-marine <span id="dots4">...</span><button onclick="readMore(dots4,moreText4,btnText4)" id="read4" class="read">En savoir plus</button><br><br>
+            <span id="more4">Après mes études et quelques expériences professionnelles, j'ai décidé de partir seul en Asie du Sud-Est. J'ai voyagé à travers l'Asie et l'Océanie pendant deux ans. Un jour, en Thaïlande, 
+                j'ai fait une plongée d'essai qui m'a tellement plu que j'ai enchaîné tous les niveaux de plongée jusqu'à devenir Dive Master.
+                Après avoir obtenu mon certificat SSI de Dive Master, j'ai travaillé comme guide de plongée au <a href="https://www.kohtaoscubaclub.com/" target="_blank">Scuba Club</a> de Koh Tao, en Thaïlande. 
+                J'accompagnais des groupes de plongeurs sur différents sites de plongée et j'assistais des instructeurs dans la formation de nouveaux plongeurs, y compris des enfants et des personnes terrifiées par la mer.            
+                J'ai dû apprendre à gérer mon propre stress et celui des autres, ainsi que leurs peurs (comme la peur de manquer d'air ou d'être en pleine mer au milieu de la nuit), tout cela sans pouvoir communiquer verbalement avec les plongeurs.     
+                Malheureusement, je n'ai pas pu rester plus longtemps en raison des difficultés d'obtention des visas de travail.
+            </span>
+        </p>
+
+        <p class="job job5">Le tatouage <span id="dots5">...</span><button onclick="readMore(dots5,moreText5,btnText5)" id="read5" class="read">En savoir plus</button><br><br>
+            <span id="more5">Par passion et de façon autodidacte, j'ai commencé à tatouer il y a plus de 10 ans. Ayant toujours aimé le dessin et l'art en général, 
+                j'ai rapidement développé un intérêt pour le tatouage comme moyen d'expression. J'ai fait mes débuts sur moi-même, puis sur des amis et les amis de mes amis.
+                Je n'ai jamais souhaité en faire une activité professionnelle, préférant le garder comme une passion. Aujourd'hui, je continue à tatouer de façon artisanale, 
+                enrichi par les diverses cultures que j'ai rencontrées à travers le monde.
+            </span>
+        </p><br>
+        </div>
+
+        <div id="parcours_outro">Cette diversité de tâches et d'environnements m'a permis de développer une 
+        solide aptitude à identifier et à résoudre des problèmes dans des contextes variés.
+        Ces compétences sont renforcées par mes connaissances techniques en développement web et mes 
+        projets personnels, qui illustrent à la fois mon engagement envers l'apprentissage continu et ma capacité à appliquer mes compétences de manière créative et efficace.<br><br>
+        </div>
+    </section>
+
+    <section id="projets" class="two"><h2>PROJETS</h2><br><br>
+        <div class="container">
+
+            <div class="box box_1" style="--img: url(screen-pico.PNG);">
+                <div class="info_projet"><h3>Jump</h3><br><h4>LUA</h4><br>
+                    Premier projet personnel, premier jeu réalisé. Il s'agit d'un jeu de plateforme vertical, 
+                    avec ajout de gravité et d'objets à collecter. Musique, menu de démarrage et écran de fin de jeu inclus.<br><br>
+                    <a href="https://ogivthim.itch.io/jump" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+	        <div class="box box_2" style="--img: url(screen-schvinyl.PNG);">
+                <div class="info_projet"><h3>SCH</h3><br><h4>HTML/CSS/JS</h4><br>
+                    Projet personnel : création d'un faux site d'artiste, responsive, de vente de vinyles et prise de contact, 
+                    avec un carrousel des albums et défilement automatique.<br><br>
+                    <a href="https://music-shop-alpha.vercel.app/" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+	        <div class="box box_3" style="--img: url(screen-koikonregarde.PNG);">
+                <div class="info_projet"><h3>Koikonregarde</h3><br><h4>HTML/CSS/JS/API</h4><br> 
+                    Projet collectif : plateforme de proposition de films aléatoires, utilisation de l'API Fetch de TMDb, 
+                    avec pop-up contenant la bande-annonce et des liens vers les plateformes de streaming.<br><br>
+                    <a href="https://projet-collectif-dataviz-koikonregarde.vercel.app/" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+	        <div class="box box_4" style="--img: url(screen-jarvis.PNG);">
+                <div class="info_projet"><h3>Jarvis</h3><br><h4>HTML/CSS/JS/API</h4><br>
+                    Projet personnel : Tableau de bord affichant l'heure et la date, utilisant l'API de OpenWeather pour récupérer la météo. 
+                    Il dispose d'un minuteur programmable, d'une to-do list stockée en localStorage, ainsi que d'une barre de recherche vers Google et Blackbox.<br><br>
+                    <a href="https://jarvis-orpin-three.vercel.app/" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+	        <div class="box box_5" style="--img: url(screen-intothespaceship.PNG);">
+                <div class="info_projet"><h3>Into the Spaceship</h3><br><h4>HTML/CSS/JS/JSON/API</h4><br>
+                    Projet collectif : landing page utilisant l'API de la NASA, 
+                    avec un système de favoris stockés en localStorage.<br><br>
+                    <a href="https://enter-the-spaceship.vercel.app/" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="one"><h2>CONTACT</h2><br><br>
+
+        <form id="contact-form">
+            <input type="hidden" name="contact_number" value="">
+            <label class="label">Nom</label><br>
+            <input type="text" name="from_name" class="input" required="required"><br>
+            <label class="label">Email</label><br>
+            <input type="email" name="email_id" class="input" required="required"><br>
+            <label class="label">Message</label><br>
+            <textarea name="message" class="input" required="required"></textarea><br>
+            <input  id="submit" type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <section id="liens"><a target="_blank" style="background-image: url(github.png);" href="https://github.com/ThimotheeT"></a><a target="_blank" style="background-image: url(linkedin.png);" href="https://www.linkedin.com/in/thimoth%C3%A9e-terrassier-a8a032274/"></a><a target="_blank" style="background-image: url(instagram.png);" href="https://www.instagram.com/vigo_tim/?hl=fr"></a><a target="_blank" style="background-image: url(linternet.png);" href="https://bento.me/thimotheeterrassier"></a></section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
