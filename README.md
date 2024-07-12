@@ -13,7 +13,7 @@ Vous pouvez visualiser le portfolio en ligne à l'adresse suivante : portfolio-t
 Installation
 
 Clonez le repository :
-git clone https://github.com/ThimotheeT/portfolio_terrassier_thimothee.git
+git clone https://github.com/ThimotheeT/Portfolio.git
 Ouvrez le fichier index.html dans votre navigateur.
 
 
