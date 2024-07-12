@@ -14,6 +14,7 @@ Installation
 
 Clonez le repository :
 git clone https://github.com/ThimotheeT/Portfolio.git
+
 Ouvrez le fichier index.html dans votre navigateur.
 
 
